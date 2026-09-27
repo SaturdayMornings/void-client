@@ -107,3 +107,9 @@ hs_err_pid*
 # End of https://www.gitignore.io/api/java,intellij
 !/graphics/graphics.iml
 !/client/client.iml
+
+### Gradle ###
+# Build output and project-local Gradle state. The wrapper (gradlew, gradlew.bat,
+# gradle/wrapper/) is intentionally committed, so only generated files are ignored.
+build/
+.gradle/
